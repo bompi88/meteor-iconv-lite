@@ -3,9 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  // "vows": "0.7.0", // for test only
-  "iconv": "2.0.5",
-  "iconv-lite": "0.2.11"
+  "iconv-lite": "0.4.3"
 });
 
 Package.on_use(function (api) {
